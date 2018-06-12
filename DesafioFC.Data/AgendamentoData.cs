@@ -21,6 +21,7 @@ namespace DesafioFC.Data
                 var agendamentoAlt = Context.Agendamentos.First(x => x.Id == agendamento.Id);
                 agendamentoAlt.DataConsulta = agendamento.DataConsulta;
                 agendamentoAlt.Medico = Context.Medicos.ToList().First(x => x.Id == agendamento.Medico.Id);
+                agendamentoAlt.Paciente = Context.Pacientes.ToList().First(x => x.Id == agendamento.Paciente.Id);
             }
             else
             {
