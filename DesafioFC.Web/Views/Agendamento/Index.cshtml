@@ -1,0 +1,54 @@
+﻿@model IEnumerable<DesafioFC.Domain.Agendamento>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2 class="text-center">Agendamentos</h2>
+
+<table class="table table-striped table-hover">
+    <thead>
+    <tr>
+        <th>
+            Nome do Paciente
+        </th>
+        <th>
+            Telefone
+        </th>
+        <th>
+            Nome do Médico
+        </th>
+        <th>
+            Data da Consulta
+        </th>
+        <th></th>
+    </tr>
+    </thead>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Paciente.Nome)
+            </td>
+            <td class="telefone">
+                @Html.DisplayFor(modelItem => item.Paciente.Telefone)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Medico.Nome)
+            </td>
+            <td>
+                @Convert.ToString($"{item.DataConsulta:dd/MM/yyyy}")
+            </td>
+            <td>
+                @Html.ActionLink("Editar", "Editar", new { id = item.Id }) |
+                @Html.ActionLink("Detalhes", "Detalhes", new { id = item.Id }) |
+                @Html.ActionLink("Excluir", "Excluir", new { id = item.Id })
+            </td>
+        </tr>
+    }
+
+</table>
+<p class="text-right">
+    @Html.ActionLink("Novo", "Novo", "", new { @class = "btn btn-primary" })
+</p>
