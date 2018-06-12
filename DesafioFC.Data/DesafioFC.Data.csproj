@@ -47,14 +47,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AgendamentoData.cs" />
     <Compile Include="Context.cs" />
+    <Compile Include="MedicoData.cs" />
     <Compile Include="Migrations\201806120232454_DbInicial.cs" />
     <Compile Include="Migrations\201806120232454_DbInicial.Designer.cs">
       <DependentUpon>201806120232454_DbInicial.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="MyConfiguration.cs" />
+    <Compile Include="PacienteData.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UsuarioData.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
