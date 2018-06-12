@@ -1,0 +1,6 @@
+C:\Users\LucianoLiboni\Projetos\desafioFC\DesafioFC\DesafioFC.Domain\bin\Debug\DesafioFC.Domain.dll
+C:\Users\LucianoLiboni\Projetos\desafioFC\DesafioFC\DesafioFC.Domain\bin\Debug\DesafioFC.Domain.pdb
+C:\Users\LucianoLiboni\Projetos\desafioFC\DesafioFC\DesafioFC.Domain\obj\Debug\DesafioFC.Domain.csprojAssemblyReference.cache
+C:\Users\LucianoLiboni\Projetos\desafioFC\DesafioFC\DesafioFC.Domain\obj\Debug\DesafioFC.Domain.csproj.CoreCompileInputs.cache
+C:\Users\LucianoLiboni\Projetos\desafioFC\DesafioFC\DesafioFC.Domain\obj\Debug\DesafioFC.Domain.dll
+C:\Users\LucianoLiboni\Projetos\desafioFC\DesafioFC\DesafioFC.Domain\obj\Debug\DesafioFC.Domain.pdb
